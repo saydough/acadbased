@@ -46,7 +46,6 @@ void enqueue(struct Queue* queue, int item) {
 
         queue->count++;
 
-         
         if (queue->front == NULL) {
             queue->front = newItem;
         }
